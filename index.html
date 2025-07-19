@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice</title>
+    <link rel="shortcut icon" href="witchcat.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="centre" id="heading">Costumize the page with whatever color you like!!!</h1>
+    <div class="question1 cloud">
+        <input type="color" id="real1" class="realcolor"><button class="fakecolor" onclick="q1color('real1','fake1')" id="fake1"></button>
+        <label for="1">Select any color for the background!!   </label>
+        <input type="color" id="1" oninput="getdatafrominput(this)">
+    </div>
+    <div class="question2 cloud">
+        <input type="color" id="real2" class="realcolor"><button class="fakecolor" onclick="q2color('real2','fake2')" id="fake2"></button>
+        <label for="2">Select any color for the heading!!   </label>
+        <input type="color" id="2" oninput="headingcolor(this)">
+    </div>
+    <div class="question3 cloud">
+        <input type="color" id="real3" class="realcolor"><button class="fakecolor" onclick="q3color('real3','fake3')" id="fake3"></button>
+        <label for="3">Select any color for the question background!!   </label>
+        <input type="color" id="3" oninput="bgcolor(this)">
+    </div>
+    <div class="question4 cloud">
+        <input type="color" id="real4" class="realcolor"><button class="fakecolor" onclick="q4color('real4','fake4')" id="fake4"></button>
+        <label for="4">Select any color for the heading background!!   </label>
+        <input type="color" id="4" oninput="hbgcolor(this)">
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

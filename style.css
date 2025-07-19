@@ -1,0 +1,90 @@
+body{
+  background-image: url(witchcat.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h1{
+  margin-bottom: 3cm;
+  
+}
+.centre{
+/* display: flex;
+justify-content: center; */
+width: 21cm;
+margin-left: auto;
+margin-right: auto;      
+color: rgb(184, 33, 33);
+  padding: 15px 25px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px rgba(168, 78, 78, 0.1);
+
+  font-family: Arial, sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+
+}
+
+.question1{
+  margin-left: 10%;
+  margin-right: 80%;
+  width: 14cm;
+  color: brown;
+  padding: 0;
+  border:0.02cm solid blueviolet;
+  font-size: 150%;
+  margin-bottom: 0.5cm;
+}
+.question2 {
+  margin-left: 10%;
+  margin-right: 80%;
+  width: 13cm;
+  color: rgb(166, 155, 70);
+  padding: 0;
+  border:0.02cm solid rgb(18, 187, 176);
+  font-size: 150%;
+  margin-bottom: 0.5cm;
+}
+.question3 {
+  margin-left: 10%;
+  margin-right: 80%;
+  width: 17cm;
+  color: rgb(48, 155, 86);
+  padding: 0;
+  border:0.02cm solid rgb(18, 187, 176);
+  font-size: 150%;
+  margin-bottom: 0.5cm;
+}
+.question4 {
+  margin-left: 10%;
+  margin-right: 80%;
+  width: 17cm;
+  color: rgb(48, 155, 86);
+  padding: 0;
+  border:0.02cm solid rgb(18, 187, 176);
+  font-size: 150%;
+  margin-bottom: 0.5cm;
+}
+.cloud {
+  background-color: #9a13bf;        
+  padding: 15px 25px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px rgba(168, 78, 78, 0.1);
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+
+}
+.realcolor{
+  display: none;
+}
+.fakecolor{
+  width: 0.5cm;
+  height: 0.5cm;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: blue;
+  position: relative;
+  top: -6.5px;
+
+}
