@@ -1,7 +1,5 @@
 body{
-  background-image: url(witchcat.png);
-  background-repeat: no-repeat;
-  background-size:cover;
+  background-color: grey;
 }
 h1{
   margin-bottom: 3cm;
